@@ -41,11 +41,11 @@ npm install
 ```
 If you run into an error, just repeat step 4 and choose the newly created sandbox
 ```
-6. Upload your files to the project with `hs project upload --account=[your account name]` 
+6. Upload your files to the project with `hs project upload --account=[your account id]` 
 
 7. Click on the link in your terminal response to open the project created in the sandbox/prod portal
 
-8.In your HS portal, go to Contacts Settings and add the CRM UI card to the middle column of your contact records. Check that you're able to see the "Example card" appear on any contact record. 
+8. In your HS portal, go to Contacts Settings and add the CRM UI card to the middle column of your contact records. Check that you're able to see the "Example card" appear on any contact record. 
 ```
 Type some text into the input field and click on "Click Me!"
 ```
