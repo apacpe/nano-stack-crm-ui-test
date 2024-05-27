@@ -69,26 +69,8 @@ Your final project directory should have the following structure:
 ```
 Review the contents of example-card.json, Example.jsx, serverless.json and example-function.js in a code editor program and note how the files are connected.
 
-### Modify your CRM UI extension
+### Deploy changes to HubSpot
 
-1. Install the HubSpot UI extensions npm package in the app/extensions folder
-```
-cd ./src/app/extensions
-npm i @hubspot/ui-extensions
-```
-2. Open the Example.jsx file in the app/extensions folder, in a code editor program and do something???
-```
-const express = require('express');
-const app = express();
-app.listen(3000, function()
-  {console.log("Server started on port 3000");}
-);
-```
-3. Test it by running the app using `node app.js` in your terminal and access localhost:3000 on your browser, you should see 'Cannot GET /'
-4. Press Ctrl + C in the terminal to stop running the app
-
-
-
-### Deploy to HubSpot
-1. Upload your updated files with `hs project upload --account=[your account name]`
-2. Review the changes on your CRM 
+1. Open the Example.jsx file in the app/extensions folder, in a code editor program and edit the HTML
+2. Upload your updated files with `hs project upload --account=[your account name]`
+3. Review the changes on your CRM 
